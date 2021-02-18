@@ -47,20 +47,34 @@
                 </div>
             </div>    
         </nav>
-    </header>    
-
-    <section class="container-fluid">
-        <div class="row">
-            <div class = "col-3">
-                <p></p>    
+    </header>
+    
+    <section class="container-fluid" >
+            <div class="col">
+                <div class="form-size">
+                    <form action="#" enctype="text/plain">
+                        <legend class="legend-format">Get intouch:</legend>
+                        <label>Name:<br />
+                            <input type="text" name="name" id="fullname" class="form-control form-control-width" placeholder=" Your Name" required />
+                        </label> <br />
+                        <label> Email Address:<br />
+                            <input type="email" name="email" id="emailaddress" class="form-control form-control-width" placeholder="Your Email Address" required />
+                        </label>  <br />
+                        <label>Subject:<br />
+                            <textarea rows="1" name="messagesubject" id="messagesubject" class="form-control form-control-width " placeholder="Subject" required></textarea>
+                        </label>  <br />
+                        <label>Message:<br />
+                            <textarea rows="10" name="messagesummary" id="messagesummary" class="form-control form-control-width" placeholder="Your Message" required></textarea>
+                        </label>  <br /> 
+                        <div class="form-row text-right form-row-button">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send</button>
+                            </div>
+                        </div>
+                        <!--above two divs provide a better button style an request-->
+                    </form>
+                </div>
             </div>
-            <div class = "col-6">
-                <p>Get in touch!</p>
-            </div>
-            <div class = "col-3">
-               <p></p> 
-            </div>           
-        </div>
     </section>
 
     <footer  class="footer">
