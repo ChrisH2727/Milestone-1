@@ -45,3 +45,19 @@
 .logo-color{
     color:blue;
 }
+.form-size {
+        max-width: 100%; 
+}
+.legend-format{
+    font-weight: bold;
+}
+.form-row-button {
+    
+    padding-right: 400px;
+    margin-right: 20px;
+    margin-left: -5px;
+    margin-top: 20px;
+}
+.form-control-width{
+    min-width:600px;
+}
