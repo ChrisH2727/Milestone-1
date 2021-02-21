@@ -62,15 +62,48 @@
     min-width:600px;
 }
 .side-image{
+    background: url(../images/IOT.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
     object-fit: cover;
     width:300px;
     height:600px;
     margin-left:50px;
 }
 .locate-heading{
-    padding-top: 300px;
+    background-color:#fff;
+    max-height: 300px;
+    z-index: 9999;
+    position:relative;
+    margin-left:80%;
+    margin-top: 40%;
 }
 .shift-skills{
     margin-left: 20px;
     margin-bottom:2px;
 }
+top-padding{
+    padding-top: 100px;
+}
+.show-inline{
+    display: inline-table;
+}
+.pill-format.nav-link:not(.active){
+    background-color:lightgray;
+    color:black;
+    min-width: width 30px;
+}
+.pill-format.nav-link{
+    background-color:green;
+    color:white;
+    min-width:30px;
+}
+.company-logo{
+    width:40px;
+    height:40px;
+    float:left;
+    margin-left:50px;
+    margin-right: 10px;
+}
+
