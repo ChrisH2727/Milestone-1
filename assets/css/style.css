@@ -57,9 +57,7 @@
     margin-right: 20px;
     margin-left: -5px;
     margin-top: 20px;
-}
-.form-control-width{
-    min-width:600px;
+    
 }
 .side-image{
     background: url(../images/IOT.png);
@@ -68,8 +66,9 @@
     background-size:cover;
     object-fit: cover;
     width:300px;
-    height:600px;
-    margin-left:50px;
+    height:300px;
+    /*margin-left:50px;*/
+    margin-right:50px;
 }
 .locate-heading{
     background-color:#fff;
@@ -103,7 +102,76 @@ top-padding{
     width:40px;
     height:40px;
     float:left;
-    margin-left:50px;
+    margin-left:10px;
     margin-right: 10px;
 }
+.contact-form{
+    margin-left:50px;
+}
+.form-control-width{
+    width:600px;
+}
 
+/*******************************Career History************************/
+.format-skills-career-heading{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.format-skills-career-top{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+.skills-career-color-top{
+    background-color: lightsteelblue;
+}
+.skills-career-format-cols1{
+    background-color: lightyellow;
+}
+.skills-career-format-cols2{
+    background-color: lightgreen;
+}
+.skills-career-format-cols3{
+    background-color: lightcoral;
+}
+.career-icon {
+    font-size: 30px;
+    color: black;
+    margin-right: 10px;
+    margin-top:10px;
+}
+.format-skills-career-detail{
+    text-decoration: none;
+    text-align: left;
+    margin-left:10px;
+    margin-top:20px;
+}
+.sub-heading-margin{
+    margin: bottom 0.25em;
+}
+.skills-career-sub-heading{
+    margin-top: 30px;
+}
+
+
+.index-box {
+    margin-top: 15px;
+    width:300px;
+    background-color: lightgrey;
+    border-color: black;
+    border-width: 1.5px;
+    z-index: 9;
+    border-radius:0.5em;
+    padding: 50px;
+   }
+
+ .my-name {
+    font-family: "Exo",sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color:black;
+}
