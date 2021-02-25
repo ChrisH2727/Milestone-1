@@ -1,3 +1,10 @@
+
+
+/*************************** Fonts ***************************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Exo:100,200,300,400,500,600,700');
+
+
 .logo{    
     /*background: url(../images/IOT.png);*/
     background-color: #e7dbdbe3;
@@ -38,6 +45,9 @@
 }
 .download-cv{
     font-size:20px;
+    color:black;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 .social-icon{
     font-size: 30px;
@@ -65,10 +75,10 @@
     background-repeat:no-repeat;
     background-size:cover;
     object-fit: cover;
-    width:300px;
+    /*width:300px;*/
     height:300px;
     /*margin-left:50px;*/
-    margin-right:50px;
+    /*margin-right:50px;*/
 }
 .locate-heading{
     background-color:#fff;
@@ -88,29 +98,35 @@ top-padding{
 .show-inline{
     display: inline-table;
 }
-.pill-format.nav-link:not(.active){
+.nav-pills .nav-link:not(.active)/*, .nav-pills .show>.nav-link*/{
+/*.nav-pills.nav-link:not(.active){*/
     background-color:lightgray;
     color:black;
-    min-width: width 30px;
+    min-width:  30px;
 }
-.pill-format.nav-link{
-    background-color:green;
+.nav-pills .nav-link.active/*, .nav-pills .show>.nav-link*/{
+/*.nav-pills.nav-link.active {*/
+    background-color:darkgrey;
     color:white;
     min-width:30px;
+    
 }
+.position-pills{
+    float:right;
+    width:70px;
+    text-align:center;
+}
+
 .company-logo{
     width:40px;
     height:40px;
     float:left;
-    margin-left:10px;
-    margin-right: 10px;
+    margin:10px;
 }
 .contact-form{
     margin-left:50px;
 }
-.form-control-width{
-    width:600px;
-}
+
 
 /*******************************Career History************************/
 .format-skills-career-heading{
@@ -130,19 +146,19 @@ top-padding{
     background-color: lightsteelblue;
 }
 .skills-career-format-cols1{
-    background-color: lightyellow;
+    background-color: rgb(250, 250, 229);
 }
 .skills-career-format-cols2{
-    background-color: lightgreen;
+    background-color: rgb(220, 247, 220);
 }
 .skills-career-format-cols3{
-    background-color: lightcoral;
+    background-color: rgb(245, 210, 210);
 }
 .career-icon {
     font-size: 30px;
     color: black;
     margin-right: 10px;
-    margin-top:10px;
+    margin-top:30px;
 }
 .format-skills-career-detail{
     text-decoration: none;
@@ -159,19 +175,68 @@ top-padding{
 
 
 .index-box {
-    margin-top: 15px;
+    margin-top: 30px;
     width:300px;
     background-color: lightgrey;
     border-color: black;
     border-width: 1.5px;
     z-index: 9;
     border-radius:0.5em;
-    padding: 50px;
    }
 
  .my-name {
     font-family: "Exo",sans-serif;
     font-weight: 100;
-    font-size: 50px;
+    font-size: 45px;
     color:black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:25;
+    padding: bottom 10px;
+}
+.my-title{
+    font-family: "Exo",sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    color:black;
+    padding:25;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:10px;
+    padding: bottom 25px;
+}
+.contact-bar{
+    background-color:lightgray;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size:25px;
+    max-height:120px;
+}
+
+
+footer{
+    background-color:lightgray;
+    color:black;
+    min-height: 120px;
+    margin:0;
+}
+/******************************************************* submit button */ 
+
+.submit-button{
+    float: left;
+    margin-top :10px;    ;
+    background-color: lightgrey;
+    color: black;
+    border: 2px solid grey;
+}
+.submit-button:hover {
+    background-color: red;
+    color: white;
+  }
+  
+
+.form-field{
+    margin-bottom:10px;
+    border:2px solid;
+    border-color:darkgray;
 }
