@@ -154,6 +154,16 @@ top-padding{
 .skills-career-format-cols3{
     background-color: rgb(245, 210, 210);
 }
+.panel-format{
+    border:white;
+    border-width:5px;
+    border-radius: 0.75em;
+    border-style:solid;
+    display: inline-block;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+
 .career-icon {
     font-size: 30px;
     color: black;
@@ -239,4 +249,10 @@ footer{
     margin-bottom:10px;
     border:2px solid;
     border-color:darkgray;
+}
+.attribution{
+    font-size: x-small;
+    color:darkgray;
+    float:bottomleft;
+    margin-top: 20px;
 }
