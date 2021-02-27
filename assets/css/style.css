@@ -179,7 +179,7 @@ top-padding{
 .format-skills-career-detail{
     text-decoration: none;
     text-align: left;
-    margin-left:10px;
+  /*  margin-left:10px; */
     margin-top:20px;
 }
 .sub-heading-margin{
@@ -217,7 +217,7 @@ top-padding{
     padding:25;
     padding-left: 25px;
     padding-right: 25px;
-
+    line-height: 1.1;
 }
 .contact-bar{
     background-color:lightgray;
@@ -262,6 +262,11 @@ footer{
 }
 .resp-img{
     width:100%;
-    max-width: width 200px;
+    /* max-width: width 200px;*/
     height:auto;
+    display: block;
+    margin:0 auto;
+}
+.Portfolio-col{
+    margin-top: 10px;
 }

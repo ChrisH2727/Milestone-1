@@ -18,7 +18,7 @@
         <!--Nav-->
         <nav class="navbar navbar-light navbar-expand-sm bg-light">
             <a href="index.html" class="navbar-brand"> <img src="assets/images/LogoColorNoText.jpeg" alt"company logo"
-                    class="company-logo" /> Exertus <br> Solutions Ltd</a>
+                    class="company-logo" /> Exertus Solutions Ltd</a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span></button>
@@ -74,37 +74,79 @@
            
             <div class="row">
                 <div class = "col-md-4" style="margin-top: 10px;">
-                    <div class="media">
+                    
                         <div class="d-none d-sm-block">
                             <img src="assets/images/climateChange.jpg" alt="Climate change" class="resp-img" />
                         </div>
-                    </div>
+                    
                 </div>
                 <div class = "col-md-8" style= "margin-top:10px">
                     <h2>Environmental Monitoring</h2>
-                    <p> climate change has happened is with us and impacts all our lives</p>    
+                    <p> Climate change is happening. CO2 levels have increased from 300ppm in the 1950s to in excess of 400ppm
+                        in 2020s. As aconcequence, sea levels have risen and the planet is experiencing more
+                        more extreme weather patterns. The goal of these projects and those that will follow is to
+                        monitor various environmental levels and to report on them.    
+                    </p>    
                 </div>
             </div>
-
             <div class="row">
-                <div class = "col-md-8" style= "margin-top:10px">
-                    <h2>Environmental Monitoring</h2>
-                    <p> climate change has happened is with us and impacts all our lives</p>    
+                <div class = "col-md-8 Portfolio-col">
+                    <h2>Air Quality Monitor</h2>
+                    <p> Exposure to high levels of air pollution can cause a many adverse 
+                        health problems. It increases the risk of respiratory infections, 
+                        heart disease and lung cancer.<br> My prototype <strong>Air Quality monitor</strong>.
+                        It measures air particulate levels, VOCs, CO2 temperature humidity and pressure.
+                        Values are sent via wifi to  <a target="_blank" href="https://thingspeak.com">ThingSpeak</a>
+                        on-line IoT analytics platform. 
+                    </p>  
+        
                 </div>
-                <div class = "col-md-4" style="margin-top: 10px;">
-                    <div class="media">
+                <div class = "col-md-4 Portfolio-col">
+                    
                         <div class="d-none d-sm-block">
                             <img src="assets/images/airMon.JPG" alt="Air quality monitor" class="resp-img" />
                         </div>
-                    </div>
+                    
                 </div>
             </div>
             <div class="row">
-                <div class = "col-md-4">
-                    <p></p>    
+                <div class = "col-md-4 Portfolio-col">
+                    
+                        <div class="d-none d-sm-block">
+                            <img src="assets/images/npkMon.JPG" alt="NPK monitor" class="resp-img" />
+                        </div>
+                    
                 </div>
-                <div class = "col-md-8">
-                    <p>What I can offer!</p>         
+                
+                <div class = "col-md-8 Portfolio-col">
+                    <h2>Chemical Ferilizer Run-off</h2>
+                    <p>Aproximately 270 million tons of chemical fertiliser was used world wide in 2020. Between 
+                       20% and 60% ends up poluting the environment and adding to greenhouse gasses.<br> 
+                       My <strong>NPK Monitor</strong> is designed to measures levels of nitrogen phosphorus and potasium
+                       in the soil. With the addition of a GPS receiver (not shown) it should be possible to determine where
+                       fertilizer should be applied and where an excess is already present.  
+                    </p>
+                </div>
+                <div class = "col-md-12 Portfolio-col">
+                    <h2>My Approach to the Hardware and Software</h2>
+                    <p>In all cases I use low cost commercial hardware. In fact the ESP32 micro controller that I use 
+                       in some of my projects includes two cores, WiFi connectivity, a veriety of interface busses all for
+                       less than the price of half a pint of beer!<br>
+                       The embedded software is written in a flavour of "C" and uses available sensor libraries available from the
+                       manufacturers. As some of the sensors have timing contraints (need to be put to sleep and woken up at periodic intervals)
+                       and because I want sensor data sent to the IoT platform at periodic intervals, I have written and use my own
+                       real-time scheduler.   
+                    </p>
+                </div>
+                <div class = "col-md-12 Portfolio-col">
+                    <h2>A Final Word</h2>
+                    <p>While all sensors provide data which appears to be correct, none have been calibrated. All that 
+                       I can can realistically claim is that sensor readings increase and decrease relative 
+                       to changes in their environment against an arbitary calibration.<br>
+                       Nonetheless, my goal is to investigate the use and performance of more sensors monotoring the
+                       environment and to make the data available on the internet for others to see and thereby further 
+                       raise awareness of climate change and its impact.     
+                    </p>
                 </div>
             </div>
         </section>
