@@ -122,6 +122,10 @@ top-padding{
     width:70px;
     text-align:center;
 }
+/**
+.collapse {
+    display: none !important;
+}*/
 
 .company-logo{
     width:40px;
@@ -264,8 +268,7 @@ footer{
     width:100%;
     /* max-width: width 200px;*/
     height:auto;
-    display: block;
-    margin:0 auto;
+
 }
 .Portfolio-col{
     margin-top: 10px;
