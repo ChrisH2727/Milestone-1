@@ -267,10 +267,20 @@ footer{
 }
 .resp-img{
     width:100%;
-    /* max-width: width 200px;*/
+    max-width: 400px;
     height:auto;
+    padding: 20px;
 
 }
 .Portfolio-col{
-    margin-top: 10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.media-text-left{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.media-text-right{
+    padding-right: 20px;
+    padding-top: 10px;
 }
