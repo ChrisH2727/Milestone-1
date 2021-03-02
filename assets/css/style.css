@@ -5,39 +5,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:100,200,300,400,500,600,700');
 
 /************************Color pallet****************/
-.skills-career-color-top{
-    background-color: lightsteelblue;
-}
 .skills-career-format-cols1{
-    background-color: rgb(250, 250, 229);
+    background-color: #e0f4f4;
 }
 .skills-career-format-cols2{
-    background-color: rgb(220, 247, 220);
+    background-color: #9ce4fb;
 }
 .skills-career-format-cols3{
-    background-color: rgb(245, 210, 210);
+    background-color: #2fd4ee;
 }
 .common-bg{
     background-color:lightgray;
 }
+.nav-bg{
+    background-color:#ff6b53;
+}
 
 /*************************Nav Bar********************/
-.nav-bg{
-    background-color:lightgray!important;
-}
-.nav-pills .nav-link:not(.active){
-    color:black;
-    min-width:  30px;
-}
+
 .nav-pills .nav-link.active{
-    background-color:darkgrey;
+    background-color:#003977;
     color:white;
-    min-width:30px;
+}
+.nav-pills .nav-link:not(.active):hover {
+    background-color: lightgrey;
+    color:black;
 }
 .position-pills{
     float:right;
     width:70px;
     text-align:center;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: white;
 }
 .company-logo{
     width:40px;
@@ -123,32 +123,32 @@
     list-style-type:none;
 }
 
-/*************************Common ********************/
 .career-icon {
     font-size: 30px;
     color: black;
     margin-right: 10px;
     margin-top:30px;
 }
-<***********************Contact *********************>
-.submit-button{
-    float: left;
-    margin-top :10px;    ;
-    color: black;
-    border: 2px solid grey;
-}
-.submit-button:hover {
-    background-color: red;
-    color: white;
-}
+/***********************Contact *********************/
+
 .form-field{
     margin-bottom:10px;
-    border:2px solid;
+    border:1.5px solid;
     border-color:darkgray;
 }
 
+button[type="submit"] {
+    margin-top: 15px;
+    width:70px;
+    height: 40px;
+    margin-bottom: 20px;  
+    border: 1.5px solid;
+    background-color:#003977;
+    color:white; 
+}
 .legend-format{
     font-weight: bold;
+    font-size: 40px;
 }
 /*********************Portfolio**********************/
 .resp-img{
@@ -175,12 +175,31 @@
     color:black;
     margin-left: 10px;
     margin-top: 20px;
+    text-decoration-line: none;
+}
+.download-cv:hover{
+    font-size:20px;
+    color:black;
+    font-weight: 600;
+    text-decoration-line: none;
 }
 footer{
-    /*background-color:lightgray;*/
     color:black;
     min-height: 120px;
     margin:0;
+}
+.find-me{
+    font-size:20px;
+    color:black;
+}
+.social-icon {
+    font-size: 30px;
+    color: black;
+    margin-right: 10px;
+    margin-top:30px;
+}
+.social-icon:hover {
+    font-weight: 600;
 }
 .attribution{
     font-size: x-small;
