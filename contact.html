@@ -21,8 +21,8 @@
     <header>
         <!--Nav-->
         <nav class="navbar navbar-light navbar-expand-sm nav-bg">
-            <a href="http:\\www.exertus-solutions.co.uk" class="navbar-brand"> <img
-                    src="assets/images/LogoColorNoText.jpeg" alt"company logo" class="company-logo" /> Exertus <br>
+            <a href="http://www.exertus-solutions.co.uk" class="navbar-brand"> <img
+                    src="assets/images/LogoColorNoText.jpeg" alt="company logo" class="company-logo" > Exertus <br>
                 Solutions Ltd</a>
             <!--Standard method for implementing a colapsed nav-bar many in references available on the internet-->
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -44,7 +44,7 @@
                         <a class="nav-link position-pills" href="assets/cv/CV0044c.pdf" target="_blank">My CV</a>
                     </li>
                     <li class="nav-item ml-2">
-                        <a class="nav-link position-pills " href="portfolio.html">Portfolio</a>
+                        <a class="nav-link position-pills " href="portfolio.html">Blog</a>
                     </li>
                     <li class="nav-item ml-2">
                         <a class="nav-link position-pills active" href="contact.html">Contact</a>
@@ -75,31 +75,32 @@
         <div class="form-group row">
             <div class="col-12">
                 <form>
-                    <!--Form data is purposefully lost -->
-                    <legend class="legend-format">Get in touch:</legend>
+                    <!--Form data is purposefully lost so no "form action" -->
+                    <fieldset>
+                        <h2 class="legend-format">Get in touch:</h2>
 
-                    <label for="fullname">Name:</label>
-                    <input type="text" name="name" id="fullname" class="form-control form-field"
-                        placeholder=" Your Name" required />
-
-                    <label for="emailadress">Email Adresss:</label>
-                    <input type="email" name="email" id="emailaddress" class="form-control form-field"
-                        placeholder="Your Email Address" required />
-
-                    <label for"messagesubject">Subject:</label>
-                    <textarea rows="1" name="messagesubject" id="messagesubject" class="form-control form-field "
-                        placeholder="Subject" required></textarea>
-
-                    <label for="messagesummary">Message:</label>
-                    <textarea rows="10" name="messagesummary" id="messagesummary" class="form-control form-field"
-                        placeholder="Your Message" required></textarea>
-
-
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-secondary submit-button" formaction="emailresp.html">Send
-                        </button>
-                        <!--formaction sends user to another page. This replaces sending the form content via email -->
-                    </div>
+                        <label for="fullname">Name:</label>
+                        <input type="text" name="name" id="fullname" class="form-control form-field"
+                            placeholder="Your Name" required />
+    
+                        <label for="emailaddress">Email Adresss:</label>
+                        <input type="email" name="email" id="emailaddress" class="form-control form-field"
+                            placeholder="Your Email Address" required />
+    
+                        <label for="messagesubject">Subject:</label>
+                        <textarea rows="1" name="messagesubject" id="messagesubject" class="form-control form-field"
+                            placeholder="Subject" required></textarea>
+    
+                        <label for="messagesummary">Message:</label>
+                        <textarea rows="10" name="messagesummary" id="messagesummary" class="form-control form-field"
+                            placeholder="Your Message" required></textarea>
+    
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-secondary submit-button" formaction="emailresp.html">Send
+                            </button>
+                            <!--formaction sends user to another page. This replaces sending the form content via email -->
+                        </div>
+                    </fieldset>
                 </form>
             </div>
         </div>
