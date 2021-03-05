@@ -195,7 +195,7 @@ Confirms functional requirements set out in section 3 found in the readme.md doc
 
 **Test Case 3.4.5** 
 
-**Description:**  Hover over a navigation bar item and  #confirm that it responds by changing colour.
+**Description:**  Hover over a navigation bar item and  confirm that it responds by changing colour.
 
 **Method:** Inspect a page using the Google Browser Development Tools.
 
@@ -213,7 +213,7 @@ Confirms functional requirements set out in section 3 found in the readme.md doc
 
 **Method:** Inspect a page using the Google Browser Development Tools.
 
-**Expected Outcome:** The same header and footer is displayed on all pages except for the one assocaited with the CV.
+**Expected Outcome:** The same header and footer is displayed on all pages except for the one associated with the CV.
  
 **Tested Outcome:** 
 

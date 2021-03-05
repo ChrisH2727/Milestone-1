@@ -48,8 +48,6 @@ The web site will consist of 6 pages allowing information to be revealed in a st
 
 - A contact page
 
-- A blog page
-
 ### 3.4 Skeleton
 
 The following requirements have been identified at this level and referenced for testing purposes.
@@ -102,7 +100,7 @@ The following requirements have been identified at this level and referenced for
 
 The development of the HTML and CSS code started with a design of each of the 5 pages (the copy of my CV in pdf makes 6) as a wireframe with each web page being represented by 3 [wireframe views](cv_wireframes.bmpr), one for each screen width (1026px, 768px and 320px). The wireframes detail the header, footer and main body of each page and how I wanted rows and columns to appear. As the wireframes are not scaled, the readability of the final web page was not easily determined.
 Using the wireframes, I then developed the basic structure for the index page with section elements, a header and a footer. At this stage the content remained very basic with little or no styling. At this
-stage I ignored the requirements for a responsive design. Once the index page provided some basic structure, I then used the index page code to create the other pages With the basic structure in place for all pages, I started to record bugs as I came across them.
+stage I ignored the requirements for a responsive design. Once the index page provided some basic structure, I then used the index page code to create the other pages. With the basic structure in place for all pages, I started to record bugs as I came across them.
 
 Next I addressed the requirements of the navigation bar and developed sufficient code to enable navigation between the different pages. While basic page navigation functioned, styling and the responsiveness of the design to different screen widths was not included.
 
@@ -110,11 +108,11 @@ I then added content to the main sections in each page and developed the contact
 
 With this in place, started to address the requirements for a responsive design, testing often to check progress. I used a snippit of HTLM code provided by the instructor during one of the lessons to compress the navigation bar to an icon at a screen width of 320px, but adapted this to operate on the right hand side of the page rather than the left.
 
-It was at this point that I realised, that it would be difficult for a visitor to read pages with three columns at a screen width of 768px. As a concequence, I re-designed pages with three columns of text to stack rather than appear inline.
+It was at this point that I realises it would be difficult for a visitor to read pages with three columns at a screen width of 768px. As a consequence, I re-designed pages with three columns of text to stack rather than appear inline.
 
-From this point onward, I started to itteritvely refine the code for each page and fix the bugs that I had recorded.
+From this point onward, I started to iteratively refine the code for each page and fix the bugs that I had recorded.
 
-I then moved on to adding more styling. Finally I used an online colour picker to identify the colours in the image running across the screen and used these to style other elements of the design.
+I then moved on to adding more styling. Finally, I used an online colour picker to identify the colours in the image running across the screen and used these to style other elements of the design.
 
 Once happy with the design of each page, I then re-tested each page and checked the flow and spelling of the text. I then asked someone unfamiliar with the design to navigate their way through the web site. After correcting any last minute bugs, I was then ready to deploy using GitHub Web
 Pages.
@@ -132,7 +130,7 @@ The associated Github repository can be found at [Milestone-1](https://chrish272
 
 ### 7.0 Update and Maintenance
 
-The HTML code associated with each of the web pages is identically structured, with a header, footer, a section containing a central banner and one or more other sections that have a different content depending on the information that it is intended to impart.
+The HTML code associated with each of the web pages is identically structure, with a header, footer, a section containing a central banner and one or more other sections that have different content depending on the information that it is intended to impart.
 
 ![Code Snip](Testimages/Codesnip.jpg){width=80%}
 
@@ -140,18 +138,18 @@ The HTML code associated with each of the web pages is identically structured, w
 
 This should make it easy another coder to enhance or modify.
 
-Note, that external hyperlinks are at the bottom of the script so that they load last awwoling the main body of the page to render.
+Note, that external hyperlinks are at the bottom of the script so that they load last allowing the main body of the page to render.
 
 
 ### 8.0 Design Constraints
 
-The web pages associated with the URL www.exertus-solutions.co.k. There is a hyperlink to www.exertus-solutions.co.uk at the top right of the header.
+The web pages associated with the URL www.exertus-solutions.co.uk. There is a hyperlink to www.exertus-solutions.co.uk at the top right of the header.
 
 Emails sent from the contacts page do not reach a nominated email address and the response message is a dummy.
 
 ### 9.0 Future Enhancements
 
-A further page could be added to highlight some of the interesting projects that I have undertaken. These projects demonstrate my passion for IOT and how this technology may be harnessed to monitor our environment for polution at a macro level. It also demonstrates my skills as a hardware engineer, and a developer of software for micro-controller applications, epecially if the micro-controller is a low-cost and high performance device as may be found in billions of domestic products.
+A further page could be added to highlight some of the interesting projects that I have undertaken. These projects demonstrate my passion for IOT and how this technology may be harnessed to monitor our environment for polution at a macro level. It also demonstrates my skills as a hardware engineer, and a developer of software for micro-controller applications. Epecially if the micro-controller is a low-cost and high performance device as may be found in billions of domestic products.
 
 ### 10.0 Defect/Resolution Log
 
@@ -162,9 +160,10 @@ A further page could be added to highlight some of the interesting projects that
 21-Feb-21|Pages are not responsive to lower screen widths|Fixed 28-Feb-21	Unecessary icons and images also hidden at lower screen widths
 20-Feb-21|Nav bar pills remain the standard blue when activated rather than changing to the selected colour|Fixed 28-Feb-21 default styling overwritten	
 26-Feb-20|Message submit button does not hyperlink correctly|Fixed 26-Feb-21 Clicking on the submit button causes a hyperlink to acknowledgement page from where the user can return to the main web site	Note, that a normal response would be an email fired of to a nominated address
-1-Mar-21|Column widths too narrow when viewed on a 768px screen|1-Mar-21 Fixed, content now displayed in rows at 768px	
-1-Mar-21|Company icon (top left of the image) fails to hyperlink correctly|1-Mar-21 Fixed, no hyperlinks to an external web page	The external webpage is still under construction but deemed outside of the submission
-2-Mar-21|Inconsistent colour pallet used across web pages|Fixed	The banner that is common to all pages was scanned with an on-line colour picker and the primary colours identified used as background
+1-Mar-21|Column widths too narrow when viewed on a 768px screen|1-Mar-21 Fixed, content now displayed in rows at 768px.
+1-Mar-21|Company icon (top left of the image) fails to hyperlink correctly|1-Mar-21 Fixed, no hyperlinks to an external web page. The external webpage is still under construction but deemed outside of the submission
+2-Mar-21|Inconsistent colour pallet used across web pages|Fixed. The banner that is common to all pages was scanned with an on-line colour picker and the primary colours identified used as background.
+3-Mar-21|CCS validation checker throws up a parse error.|Not fixed.
 
 ### 11.0 Acknowledgements
 
