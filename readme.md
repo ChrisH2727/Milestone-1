@@ -130,6 +130,10 @@ The associated Github repository can be found at [Milestone-1](https://chrish272
 
 ### 7.0 Update and Maintenance
 
+To clone the project use the following command line in your working directory:
+
+       gh repo clone ChrisH2727/Milestone-1
+
 The HTML code associated with each of the web pages is identically structure, with a header, footer, a section containing a central banner and one or more other sections that have different content depending on the information that it is intended to impart.
 
 ![Code Snip](Testimages/Codesnip.jpg){width=80%}
