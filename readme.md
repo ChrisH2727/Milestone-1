@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This readme file contains the documentation associated with the first milestone submission for the Code Institute Diploma in Software Development. This project milestone submission will consist of a personal portfolio site for me.
+This readme file contains the documentation associated with the first milestone project for the Code Institute Diploma in Software Development. This project milestone submission will consist of a personal portfolio site for me.
 
 The goal of the website is not simply to re-tell the contents of my CV, but to provide an insight into my work experience and what I might be able to do for a client or potential employer.
 
@@ -10,9 +10,9 @@ The goal of the website is not simply to re-tell the contents of my CV, but to p
 
 The use cases listed below have been numbered so that they may be referenced by the test document.
 
-**Use case 1:** As a site user and a recruiter I want to know whether Chris Heisig is potentially the right candidate for my client.
+**Use case 1:** As a site visitor and a recruiter I want to know whether Chris Heisig is potentially the right candidate for my client.
 
-**Use case 2:** As a potential employer I want to determine if Chris Heisig has the appropriate mix of skills necessary for the role.
+**Use case 2:** As a potential employer I want to determine if Chris Heisig has the appropriate career background.
 
 **Use case 3:** As the site owner I want to present my work experience and my skills in the best possible light to get hired.
 
@@ -22,21 +22,19 @@ The use cases listed below have been numbered so that they may be referenced by 
 
 ## 3. User Experience
 
-The website design will be meet the following requirements. The requirements are numbered and will be referenced by the test.md
-
 ### 3.1 Strategy
 
-**3.1.1** To align with the Business Requirements and use cases.
+**3.1.1** To align with the Business Requirements and Use Cases.
 
 ## 3.2 Scope
 
-**3.2.1** The web site will display information demonstrating my work skills and work history in a clear and consistent manner regardless of the device used to view it
+The web site will display information demonstrating my work skills and work history in a clear and consistent manner regardless of the device used to view it.
 
-**3.2.2** Pages will be structured to allow future updates to be made without the need to re-factor the HTML or CSS
+Pages will be structured to allow future updates to be made without the need to re-factor the HTML or CSS
 
 ### 3.3 Structure
 
-#### 3.3.1 The web site will consist of 6 pages allowing information to be revealed in a structured way.
+The web site will consist of 6 pages allowing information to be revealed in a structured way.
 
 - The landing page
 
@@ -60,33 +58,37 @@ The following requirements have been identified at this level and referenced for
 
 **3.4.2** At small screen widths (320px) the navigation bar will collapse to an icon.
 
-**3.4.3** Clicking in the collapsed icon will reveal the navigation bar vertically aligned.
+**3.4.3** Clicking on the collapsed icon will reveal the navigation bar vertically aligned.
 
-**3.4.4** To aid visitor navigation, navigation bar items will highlight indicating the page being displayed.
+**3.4.4** To aid visitor navigation, the navigation bar items will highlight indicating the page currently being displayed.
 
 **3.4.5** Hovering above a navigation bar item will result in that navigation bar item being highlighted.
 
-**3.4.6** With the exception of the page leading to the CV, all pages will display the header and footer in the same position
+**3.4.6** With the exception of the page leading to the CV, all pages will display the header and footer in the same position.
 
-**3.4.7** The user will always be able to navigate back to the home page
+**3.4.7** The user will always be able to navigate back to the home page.
 
 **3.4.8** Each page will include a common banner to uniquely identify the web site.
 
 **3.4.9** Clicking on icons located in either the header or footer will result in a successful hyperlink to the selected web site.
 
+**3.4.10** It will not be possible to send me a message from the contact page without completing all the necessary fields.
+
+**3.4.11** If the site visitor completes all the fields on the contact page and clicks on the submit button, then she/he will receive a confirmatory notification message.
+
 ### 3.5 Surface
 
 The following requirements have been identified at this level and referenced for testing purposes.
 
-**3.5.1** All pages will render to provide a readable display at 1206px, 768px and 320px screen widths 
+**3.5.1** All pages will render to provide a readable display at 1206px, 768px and 320px screen widths. 
 
-**3.5.2** The design will use a limited pallet of colours (less than 7)
+**3.5.2** The design will use a limited pallet of colours (less than 7).
 
 **3.5.3** Each page will be structured using the "rule of three" unless this makes the page unreadable.
 
-**3.5.4** If using the "rule of three" makes the page unreadable on a smaller screen, then in the first instance content will be stacked
+**3.5.4** If using the "rule of three" makes the page unreadable on a smaller screen, then in the first instance content will be stacked.
 
-**3.5.5** If hiding unnecessary images and icons continues to make pages unreadable at smaller screen widths, unnecessary images and icons will be hidden from the visitor.
+**3.5.5** If stacking text is not sufficient for making a page readable at a small screen width, then images and icons will be hidden from view.
 
 ### 4.0 Non Functional Requirements
 
@@ -98,54 +100,35 @@ The following requirements have been identified at this level and referenced for
 
 ### 5.0 Development Approach
 
-The development of the HTML and CSS code started with a design of each of the 5 pages (the copy
-of my CV in pdf makes 6) as a wireframe with each web page being represented by 3 [wireframe views](cv_wireframes.bmpr), one for each screen width (1026px, 768px and 320px). The wireframes detail the header, footer
-and main body of each page and how I wanted rows and columns to appear. As the wireframes are not scaled, the readability of the final web page is not easily determined.
-Using the wireframes, I then developed the basic structure for the index page with section elements,
-a header and a footer. At this stage the content remained very basic with little or no styling. At this
-stage I ignored the requirements for a responsive design. Once the index page provided some basic
-structure, I then used the index page code to create the other pages excluding the contact page
-which has a different structure. With the basic structure in place, I started to recore bugs as I came
-across them.
+The development of the HTML and CSS code started with a design of each of the 5 pages (the copy of my CV in pdf makes 6) as a wireframe with each web page being represented by 3 [wireframe views](cv_wireframes.bmpr), one for each screen width (1026px, 768px and 320px). The wireframes detail the header, footer and main body of each page and how I wanted rows and columns to appear. As the wireframes are not scaled, the readability of the final web page was not easily determined.
+Using the wireframes, I then developed the basic structure for the index page with section elements, a header and a footer. At this stage the content remained very basic with little or no styling. At this
+stage I ignored the requirements for a responsive design. Once the index page provided some basic structure, I then used the index page code to create the other pages With the basic structure in place for all pages, I started to record bugs as I came across them.
 
-Next I addressed the requirements of the navigation bar and developed sufficient code to enable
-navigation between the different pages. While basic page navigation functioned, styling and the
-responsiveness of the design to different screen widths was not included.
+Next I addressed the requirements of the navigation bar and developed sufficient code to enable navigation between the different pages. While basic page navigation functioned, styling and the responsiveness of the design to different screen widths was not included.
 
-I then added content to the main sections in each page and started the developed the contact page.
-As sending emails from within HTML code is beyond the scope of this project, I was advised to create
-a further page to be displayed when the submit button is clicked.
+I then added content to the main sections in each page and developed the contact page futher. As sending emails from within HTML code is beyond the scope of this project, I was advised to create a further page to be displayed when the submit button is clicked.
 
-With this in place, started to address the requirements for a responsive design, testing often to check
-progress. I used a snippit of HTLM code provided by the instructor during one of the lessons to
-compress the navigation bar to an icon at a screen width of 320px, but adapted this to operate on
-the right hand side of the page rather than the left.
+With this in place, started to address the requirements for a responsive design, testing often to check progress. I used a snippit of HTLM code provided by the instructor during one of the lessons to compress the navigation bar to an icon at a screen width of 320px, but adapted this to operate on the right hand side of the page rather than the left.
 
-It was at this point that I realised, that it would be difficult for a visitor to read pages with three
-columns at a screen width of 768px. As a concequence, I re-designed pages with three columns of
-text to stack rather than appear inline.
-From this point onward, I started to itteritvely refine the code for each page and fix the bugs that I
-had recorded.
+It was at this point that I realised, that it would be difficult for a visitor to read pages with three columns at a screen width of 768px. As a concequence, I re-designed pages with three columns of text to stack rather than appear inline.
 
-I then moved on to adding more styling. Finally I used an online colour picker to identify the colours
-in the image running across the screen and used these to style other elements of the design.
-Once happy with the design of each page, I then re-tested each page and checked the flow and
-spelling of the text. I then asked someone unfamiliar with the design to navigate their way through
-the web site. After correcting any last minute bugs, I was then ready to deploy using GitHub Web
+From this point onward, I started to itteritvely refine the code for each page and fix the bugs that I had recorded.
+
+I then moved on to adding more styling. Finally I used an online colour picker to identify the colours in the image running across the screen and used these to style other elements of the design.
+
+Once happy with the design of each page, I then re-tested each page and checked the flow and spelling of the text. I then asked someone unfamiliar with the design to navigate their way through the web site. After correcting any last minute bugs, I was then ready to deploy using GitHub Web
 Pages.
 
-Both the HTML source files and the CSS source file have been divided into section by comments to
-enhance readability of the code.
+Both the HTML source files and the CSS source file have been divided into section by comments to enhance readability of the code.
 
-As the wireframes were not to scale and did not include text, it was impossible to confirm readability
-each web page before starting to code. As a consequence, some redesign was required during the
-coding process.
+I realise that there is probably a better way of appraoching the design, with no actual experience, this was no apparent. 
+
 
 ### 6.0 Initial Deployment
 
 This milestone project was deployed at Milestone project 1 using Github Pages.
 
-The associated Github repository can be found at Milestone-1
+The associated Github repository can be found at [Milestone-1](https://chrish2727.github.io/Milestone-1/)
 
 ### 7.0 Update and Maintenance
 
@@ -154,6 +137,8 @@ The HTML code associated with each of the web pages is identically structured, w
 ![Code Snip](Testimages/Codesnip.jpg){width=80%}
 
 *fig: HTML Code Structure*
+
+This should make it easy another coder to enhance or modify.
 
 Note, that external hyperlinks are at the bottom of the script so that they load last awwoling the main body of the page to render.
 
